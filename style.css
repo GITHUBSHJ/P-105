@@ -1,0 +1,33 @@
+button
+{
+	padding-right: 300px;
+	padding-left: 300px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: yellow;
+	background-color:lightblue;
+}
+
+#main
+{
+	margin-top: 90px;
+}
+
+#camera
+{
+	border: 2px groove black;
+	width: 400px;
+	height: 400px;
+}
+
+#container
+{
+	background-color: goldenrod;
+}
+
+#result
+{
+	border: 2px groove black;
+	width: 300px;
+	height: 400px;
+}

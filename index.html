@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image recognition</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+		<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+	
+	
+	   <link rel="stylesheet" href="style.css">
+	  
+	  </head>
+	<body>
+			<h1 style="color:red; margin-left:100px; margin-bottom: 50px;" >FAMILY RECONGITION</h1>
+			<button>MOTHER</button>
+			<br>
+			<hr>
+			<button>FATHER</button>
+			<br>
+			<hr>
+			<button>BROTHER</button>
+			<br>
+			<hr>
+			<button>ME</button>
+			<br>
+			<hr>
+
+		<div class="container">
+<label>Webcam View - </label>
+<div id="camera"></div>
+<br><br>
+<div id="result"></div>
+<br><br>
+<div class="container">
+<button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+<button onclick="check();" class="btn btn-success">Identify Image</button>
+<br>
+</div>
+<h1>Object :   </h1><p style="font-size: 22px;" id="result_object_name"></p>
+<h1>Accuracy :</h1>  <p style="font-size: 22px;" id="result_object_accuracy"></p>
+</div>
+<script src = "main.js"></script>
+</body>
+</html>
